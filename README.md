@@ -2,7 +2,7 @@
 
 ## Using NodeJS you can build a rapid development enviroment
 
-### node-localhost.json
+### package.json
 ```bash
 {
   "name": "NodeJS-Rapid-Development",
@@ -24,6 +24,11 @@
   ],
   "cordovaPlatforms": []
 }
+```
+
+```bash
+  # requires package.json placed in directory above www
+  npm install
 ```
 
 ### dev.js
@@ -61,3 +66,9 @@ connect()
 	.listen(port);
 ```
 
+```bash
+  # start up your rapid development envirnoment
+  node dev
+```
+
+### [http://localhost:8080](http://localhost:8080)
