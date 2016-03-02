@@ -1,7 +1,8 @@
-# NodeJS-LocalHost
+# NodeJS and Rapid Development
 
 ## Using NodeJS you can build a rapid development enviroment
 
+### package.json
 ```bash
 {
   "name": "NodeJS-Rapid-Development",
