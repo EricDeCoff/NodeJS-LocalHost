@@ -2,7 +2,7 @@
 
 ## Using NodeJS you can build a rapid development enviroment
 
-### package.json
+### node-localhost.json
 ```bash
 {
   "name": "NodeJS-Rapid-Development",
