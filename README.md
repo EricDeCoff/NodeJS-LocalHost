@@ -43,7 +43,7 @@ console.log('Serving directory ' + __dirname +base);
 console.log('Running server on port ' + port);
 connect()
 	.use(require('connect-inject')({
-		ignore: ['.js', '.css', '.svg', '.ico', '.woff', '.png', '.jpg', '.jpeg','scss'],
+		ignore: ['.js', '.css', '.svg', '.ico', '.woff', '.png', '.jpg', '.jpeg','.scss'],
 		runAll: true,
 		rules: [
 			{
